@@ -19,6 +19,7 @@ from api import views
 urlpatterns = [
 
     path('admin/', admin.site.urls),
-  #  path('', include('inventory.urls')),
-    path('api/', include('api.urls'))
+    #  path('', include('inventory.urls')),
+    path('api/', include('api.urls')),
+    path('api/products/', include('products.urls')),
 ]

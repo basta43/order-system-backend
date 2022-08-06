@@ -39,8 +39,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.admin',
     #own
+    'rest_framework',
     'inventory',
     'api',
+    'products',
 
 
 ]
